@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import ProductList from './Components/ProductList';
-
+import Header from './Components/Header';
 
 
 function App() {
   const [products, updateProducts] = useState([]);
+  const [cart, updateCart] = useState([]);
   
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/Mekanation/capstone-1/caleb-waters/capstone-1/src/data.json")
@@ -15,10 +16,17 @@ function App() {
         
       },[])
   })
+
+  const addToCart = products => {
+    const newCart= [...cart, {products}];
+    updateCart(newCart);
+
+  }
   
   return (
     <div className="App">
-      <ProductList products={products}/>
+      <Header/>
+      <ProductList products={products} addToCart={addToCart}/>
      
     </div>
   );

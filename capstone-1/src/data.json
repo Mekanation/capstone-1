@@ -2,7 +2,7 @@
     "products": [
         {
           "id": 1,
-          "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+          "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
           "product_name": "Test Data",
           "serial_number": "Test Data",
           "price": 150.99,
@@ -13,7 +13,7 @@
         },
         {
             "id": 2,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -24,7 +24,7 @@
           },
           {
             "id": 3,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -35,7 +35,7 @@
           },
           {
             "id": 4,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -46,7 +46,7 @@
           },
           {
             "id": 5,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -57,7 +57,7 @@
           },
           {
             "id": 6,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -68,7 +68,7 @@
           },
           {
             "id": 7,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -79,7 +79,7 @@
           },
           {
             "id": 8,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -90,7 +90,7 @@
           },
           {
             "id": 9,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -101,7 +101,7 @@
           },
           {
             "id": 10,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -112,7 +112,7 @@
           },
           {
             "id": 11,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,
@@ -123,7 +123,7 @@
           },
           {
             "id": 12,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink.jpg",
+            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
             "product_name": "Test Data",
             "serial_number": "Test Data",
             "price": 150.99,

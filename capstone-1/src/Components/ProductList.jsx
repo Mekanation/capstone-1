@@ -1,10 +1,12 @@
 import React from 'react';
+import ProductCard from './ProductCard';
 
 
-function ProductList() {
+function ProductList(props) {
   return (
     <div>
-     
+        <ProductCard products={props.products}></ProductCard>
+    
     </div>
   );
 }

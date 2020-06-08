@@ -1,24 +1,24 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import jsonData from "./data.json";
+import ProductList from './Components/ProductList';
 
 
-function App({jsonData}) {
-  const [products, updateProducts] = useState(null);
+
+function App() {
+  const [products, updateProducts] = useState([]);
   
   useEffect(() => {
-    fetch("capstone-1/src/data.json")
+    fetch("https://raw.githubusercontent.com/Mekanation/capstone-1/caleb-waters/capstone-1/src/data.json")
       .then(res => res.json())
-      .then(result => {
-        console.log(result);
-        updateProducts(result);
-        console.log(products);
-      },[products])
+      .then(json => {
+        updateProducts(json.products);
+        
+      },[])
   })
   
   return (
     <div className="App">
-      
+      <ProductList products={products}/>
      
     </div>
   );

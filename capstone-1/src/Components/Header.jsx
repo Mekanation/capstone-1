@@ -9,21 +9,21 @@ import CartModal from './CartModal';
 
 
 function Header(props) {
-    
-    return (
 
- <Navbar bg="dark" variant="dark">
- <Navbar.Brand href="#home">Releafs</Navbar.Brand>
- <Nav className="mr-auto">
- <CartModal props={props}/>
-</Nav>
+  return (
 
- <Form inline>
-   <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-   <Button variant="outline-info">Search</Button>
- </Form>
-</Navbar>
-    );
+    <Navbar bg="dark" variant="dark">
+      <Navbar.Brand href="#home">Releaf</Navbar.Brand>
+      <Nav className="mr-auto">
+        <CartModal props={props} />
+      </Nav>
+
+      <Form inline>
+        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+        <Button variant="outline-info">Search</Button>
+      </Form>
+    </Navbar>
+  );
 }
 
 export default Header;

@@ -1,147 +1,198 @@
 {
-    "products": [
-        {
-          "id": 1,
-          "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-          "product_name": "Test Data",
-          "serial_number": "Test Data",
-          "price": 150.99,
-          "manufacturer": "Test Data",
-          "tags":["Hot", "Dank","Whoah"],
-          "quantity": 25,
-          "reserved_quantity":0
-
-        },
-        {
-            "id": 2,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 3,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 4,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 5,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 6,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 7,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 8,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 9,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-          },
-          {
-            "id": 10,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-          },
-          {
-            "id": 11,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          },
-          {
-            "id": 12,
-            "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Greasy-Pink-300x300.jpg",
-            "product_name": "Test Data",
-            "serial_number": "Test Data",
-            "price": 150.99,
-            "manufacturer": "Test Data",
-            "tags":["Hot", "Dank","Whoah"],
-            "quantity": 25,
-            "reserved_quantity":0
-  
-          }
-        
-    ]
+  "products": [
+    {
+      "id": 1,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Green-Goblin-300x300.jpg",
+      "product_name": "Green Goblin",
+      "serial_number": "1244-14gs",
+      "price": 83.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Depression",
+        "Diesel",
+        "earthy",
+        "energetic",
+        "Euphoric",
+        "Fatigue",
+        "Focused",
+        "Happy",
+        "Headaches",
+        "Nausea",
+        "pain",
+        "sweet",
+        "uplifted"
+      ],
+      "quantity": 13,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 2,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/03/Gods-Green-Crack-3-300x300.jpg",
+      "product_name": "Gods Green Crack",
+      "serial_number": "1044-14",
+      "price": 144.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Depression",
+        "Diesel",
+        "earthy",
+        "energetic",
+        "Euphoric",
+        "Fatigue",
+        "Focused",
+        "Happy",
+        "Lack of Appetite"
+      ],
+      "quantity": 400,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 3,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/02/Fruity-Pebbles-OG-3-300x300.jpg",
+      "product_name": "Fruity Pebbles OG",
+      "serial_number": "1176-28",
+      "price": 260.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Hot",
+        "Dank",
+        "Whoah",
+        "ADD/ADHD",
+        "Anxiety",
+        "Chronic Pain"
+      ],
+      "quantity": 100,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 4,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/06/El-Jefe-300x300.jpg",
+      "product_name": "El Jefe",
+      "serial_number": "1040-0000-14",
+      "price": 156.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Tingly",
+        "Creative",
+        "Depression",
+        "Euphoric",
+        "Headaches"
+      ],
+      "quantity": 300,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 5,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/04/Comatose-1-300x300.jpg",
+      "product_name": "Comatose",
+      "serial_number": "1032-0000-14",
+      "price": 132.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Depression",
+        "Diesel",
+        "earthy",
+        "energetic",
+        "Euphoric",
+        "Fatigue",
+        "Focused",
+        "Happy",
+        "Lack of Appetite"
+      ],
+      "quantity": 0,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 6,
+      "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/10/mota-sour-squares-300x300.jpg",
+      "product_name": "Mota Sour Squares",
+      "serial_number": "3014-038",
+      "price": 15.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "watermelon"
+      ],
+      "quantity": 500,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 7,
+      "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Moonrock-Banana-Split-300x300.jpg",
+      "product_name": "Moonrock Banana Split",
+      "serial_number": "3013-018-1",
+      "price": 40.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Tingly",
+        "Creative",
+        "Depression",
+        "Euphoric",
+        "Headaches"
+      ],
+      "quantity": 300,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 8,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/05/Girl-Scout-Cookies-300x300.jpg",
+      "product_name": "Girl Scout Cookies",
+      "serial_number": "1042-14gs",
+      "price": 89.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Creative",
+        "Depression",
+        "earthy",
+        "Euphoric",
+        "Happy",
+        "Insomnia",
+        "Lack of Appetite",
+        "pain",
+        "Pungent",
+        "relaxed",
+        "stress",
+        "sweet",
+        "uplifted"
+      ],
+      "quantity": 900,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 9,
+      "image_url": "http://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/03/OriginalExtracts-Strawberry-Cough-300x300.jpg",
+      "product_name": "Strawberry Cough Shatter",
+      "serial_number": "3222-008",
+      "price": 35.00,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Shatter",
+        "Extract"
+      ],
+      "quantity": 129,
+      "reserved_quantity": 0
+    },
+    {
+      "id": 10,
+      "image_url": "https://387172-1217454-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/02/Grape-God-300x300.jpg",
+      "product_name": "Grape God",
+      "serial_number": "1049-1011-14",
+      "price": 144,
+      "manufacturer": "Herb Approach",
+      "tags": [
+        "Depression",
+        "Euphoric",
+        "Happy",
+        "Insomnia",
+        "pain",
+        "relaxed",
+        "sleepy",
+        "Spasticity",
+        "stress",
+        "sweet",
+        "uplifted"
+      ],
+      "quantity": 3,
+      "reserved_quantity": 0
+    }
+  ]
 }

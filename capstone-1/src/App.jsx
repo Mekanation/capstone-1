@@ -22,10 +22,16 @@ function App() {
     updateCart(newCart);
 
   }
+
+  const removeFromCart = index => {
+    const newCart=[...cart];
+    newCart.splice(index, 1);
+    updateCart(newCart);
+  }
   
   return (
     <div className="App">
-      <Header/>
+      <Header cart={cart} updateCart={updateCart} addToCart={addToCart} removeFromCart={removeFromCart}/>
       <ProductList products={products} addToCart={addToCart}/>
      
     </div>

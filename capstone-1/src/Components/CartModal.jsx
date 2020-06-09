@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import CartCard from './CartCard';
-
+import NumberFormat from 'react-number-format';
 import CardDeck from 'react-bootstrap/CardDeck'
 
 
@@ -12,6 +12,7 @@ function CartModal(props) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const total = props.props.cart.reduce((prev, next) => prev + (next.products.price * next.products.reserved_quantity), 0);
+
   const isEmpty = props.props.cart.length;
   let emptyText;
   if (isEmpty === 0) {
@@ -24,6 +25,7 @@ function CartModal(props) {
         <Button variant="outline-success" onClick={handleShow}>
           Cart
       </Button>
+        <div className="cart-number">{props.props.cart.length}</div>
 
         <Modal
           show={show}
@@ -48,7 +50,8 @@ function CartModal(props) {
               </div>
             </div>
             <div>
-              <h3>Total:{total}</h3>
+              <h3>Total:<NumberFormat value={total} displayType={'text'} thousandSeparator={true} prefix={'$'} renderText={value => <div>{value}</div>} /></h3>
+
             </div>
           </Modal.Body>
           <Modal.Footer>

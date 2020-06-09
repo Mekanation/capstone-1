@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
@@ -8,7 +8,9 @@ import Button from 'react-bootstrap/Button';
 import CartModal from './CartModal';
 
 
+
 function Header(props) {
+  const [input, setInput] = useState('');
 
   return (
 
@@ -19,11 +21,14 @@ function Header(props) {
       </Nav>
 
       <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-info">Search</Button>
+        <FormControl type="text" placeholder="Search" className="mr-sm-2" onChange={e => props.searchProducts(e.target.value)} />
+        <Button variant="outline-info" type="submit">Search</Button>
       </Form>
+
     </Navbar>
   );
 }
 
 export default Header;
+
+

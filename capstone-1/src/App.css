@@ -37,3 +37,13 @@
   }
 }
 
+.cart-number {
+  display:flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  float: right;
+  margin-left: 20px;
+  font-size: x-large;
+}

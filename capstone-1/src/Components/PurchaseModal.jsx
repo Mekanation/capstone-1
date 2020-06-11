@@ -12,20 +12,16 @@ function PurchaseModal(props) {
         <>
             <Button variant="outline-success" onClick={handleShow}>
                 Purchase
-        </Button>
+            </Button>
 
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title>Purchase</Modal.Title>
-                </Modal.Header>
-                <Modal.Body><Purchase total={props.total} /></Modal.Body>
+            <Modal show={show} onHide={handleClose} backdrop="static" size="lg">
+
+                <Purchase total={props.total} />
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Close
-            </Button>
-                    <Button variant="primary" onClick={handleClose}>
-                        Save Changes
-            </Button>
+                    </Button>
+
                 </Modal.Footer>
             </Modal>
         </>

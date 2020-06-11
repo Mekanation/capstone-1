@@ -7,6 +7,7 @@ import {
     injectStripe
 } from 'react-stripe-elements';
 import axios from 'axios';
+import './PurchaseForm.css'
 
 
 

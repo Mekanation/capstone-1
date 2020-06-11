@@ -7,10 +7,12 @@ import Header from './Components/Header';
 function App() {
   const [products, updateProducts] = useState([]);
   const [cart, updateCart] = useState([]);
-  const [productsFiltered, updateProductsFiltered] = useState([]);
+  const [productsFiltered, setProductsFiltered] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
 
   useEffect(() => {
+
     fetch("https://raw.githubusercontent.com/Mekanation/capstone-1/caleb-waters/capstone-1/src/data.json")
       .then(res => res.json())
       .then(json => { updateProducts(json.products) });
@@ -19,10 +21,18 @@ function App() {
 
 
   const addToCart = (products) => {
-    products.reserved_quantity++;
-    const newCart = [...cart, { products }];
-    updateCart(newCart);
-    console.log(cart);
+    if (cart.some(item => products.id === item.products.id)) {
+      alert('Item is already in cart, Please adjust quantities in there.')
+    } else {
+      const newCart = [...cart, { products }];
+      updateCart(newCart);
+      console.log(newCart);
+
+    }
+
+
+
+
   }
 
 
@@ -32,19 +42,29 @@ function App() {
     updateCart(newCart);
   }
 
-  const searchProducts = value => {
+  function searchProducts() {
+    console.log(searchTerm);
+    const regexp = new RegExp(searchTerm, 'gi');
+    const filteredProducts = products.filter((p) => {
+      const productValues = Object.values(p)
+      const isMatch = productValues.filter(item => item.toString().match(regexp))
+      if (isMatch.length === 0) {
+        return null;
+      }
+      return p;
 
-    const productsFilter = products.filter((product) => Object.values(product.product_name.toLowerCase()).includes(value.toLowerCase()));
-    updateProductsFiltered(productsFilter);
-    console.log(productsFilter);
+    });
 
+    console.log(filteredProducts)
+    if (filteredProducts.length === 0) {
+      alert('Nothing matches that search');
+    }
+    return setProductsFiltered(filteredProducts);
   }
-
-
 
   return (
     <div className="App">
-      <Header products={products} cart={cart} updateCart={updateCart} addToCart={addToCart} removeFromCart={removeFromCart} searchProducts={searchProducts} />
+      <Header products={products} cart={cart} updateCart={updateCart} addToCart={addToCart} removeFromCart={removeFromCart} searchTerm={searchTerm} setSearchTerm={setSearchTerm} searchProducts={searchProducts} productsFiltered={productsFiltered} />
       <ProductList products={products} addToCart={addToCart} productsFiltered={productsFiltered} />
 
     </div>

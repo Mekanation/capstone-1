@@ -3,12 +3,14 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import CartCard from './CartCard';
 import NumberFormat from 'react-number-format';
-import CardDeck from 'react-bootstrap/CardDeck'
+import CardDeck from 'react-bootstrap/CardDeck';
+import useForceUpdate from 'use-force-update';
+import PurchaseModal from './PurchaseModal';
 
 
 function CartModal(props) {
   const [show, setShow] = useState(false);
-
+  const forceUpdate = useForceUpdate();
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const total = props.props.cart.reduce((prev, next) => prev + (next.products.price * next.products.reserved_quantity), 0);
@@ -19,6 +21,11 @@ function CartModal(props) {
     emptyText = <h2>Add something to your cart!</h2>
 
   }
+
+
+
+
+
   return (
     <div className="CartModal">
       <>
@@ -51,14 +58,16 @@ function CartModal(props) {
             </div>
             <div>
               <h3>Total:<NumberFormat value={total} displayType={'text'} thousandSeparator={true} prefix={'$'} renderText={value => <div>{value}</div>} /></h3>
-
+              <Button variant="secondary" onClick={() => forceUpdate()}>
+                Get Total
+          </Button>
             </div>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="outline-danger" onClick={handleClose}>
               Close
           </Button>
-            <Button variant="outline-success">Purchase</Button>
+            <PurchaseModal total={total} />
           </Modal.Footer>
         </Modal>
       </>
